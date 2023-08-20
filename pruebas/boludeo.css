@@ -1,0 +1,68 @@
+*{
+  background-color: #2e3038;
+  color: #c1c1c1
+}
+
+body{
+
+}
+
+#primera {
+ background-color:green;
+}
+
+thead{
+background-color:cyan;
+}
+
+table[id*="concabeza"]{
+  border: 5px solid #5b2e6f ;
+  border-radius: 10px;
+  outline: lime;
+  border-collapse: collapse;
+}
+
+#concabeza td{
+  border:2px dashed black;
+}
+
+
+#listillas {
+  height: 300px;
+  width: 250px;
+  text-align: center;
+  border-right: gray dotted;
+  margin: 70px 35px 25px 45px;
+}
+
+#tabletas{
+  width: 250px;
+  height: 350px;
+  padding: 0px 15px;
+  margin: 0px 30px;
+}
+
+.cuadrados {
+  margin: 40px auto;
+}
+
+
+table #tabletas{
+  padding: auto;
+}
+
+
+#cuenta {
+  width: 400px;
+  height: 200px;
+  padding: 5px;
+}
+
+form input, form textarea, form select, form button {
+  margin-bottom: 20px;
+  padding: auto;
+}
+
+.priemeralinea {
+  display: inline-block;
+}

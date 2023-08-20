@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+  <link href="./boludeo.css" rel="stylesheet">
+</head>
+<body>
+  <link></link>
+  <div id="listillas" class="priemeralinea">
+  <ul type="disc">
+    <li>ejemplo 1</li>
+    <li>ejemplo 2</li>
+    <li>ejemplo 3</li>
+    <li>ejemplo 4</li>
+  </ul>
+
+  <ul type="circle">
+    <li>ejemplo 1</li>
+    <li>ejemplo 2</li>
+    <li>ejemplo 3</li>
+    <li>ejemplo 4</li>
+  </ul>
+
+  <ul type="squere">
+    <li>ejemplo 1</li>
+    <li>ejemplo 2</li>
+    <li>ejemplo 3</li>
+    <li>ejemplo 4</li>
+  </ul>
+
+</div>
+<div id="tabletas" class="priemeralinea">
+  <table id="concabeza" class="cuadrados">
+   <thead>
+    <tr>
+      <td>0-0</td>
+      <td>0-1</td>
+      <td>0-2</td>
+      <td>0-3</td>
+      <td>0-4</td>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+      <td id="primera">1-0</td>
+      <td>1-1</td>
+      <td>1-2</td>
+      <td>1-3</td>
+      <td>1-4</td>
+    </tr>
+    <tr>
+      <td id="primera">2-0</td>
+      <td>2-1</td>
+      <td>2-2</td>
+      <td>2-3</td>
+      <td>2-4</td>
+    </tr>
+  </tbody>
+</table>
+
+
+  <table border="5" cellspacing="10" class="cuadrados">
+    <tr>
+      <td>1-1</td>
+      <td>1-2</td>
+      <td>1-3</td>
+      <td>1-4</td>
+    </tr>
+    <tr>
+      <td>2-1</td>
+      <td>2-2</td>
+      <td>2-3</td>
+      <td>2-4</td>
+    </tr>
+  </table>
+
+
+  <table border="1" class="cuadrados">
+    <tr align="left">
+      <td>1-1</td>
+      <td>1-2</td>
+      <td>1-3</td>
+      <td>1-4</td>
+    </tr>
+    <tr>
+      <td>2-1</td>
+      <td>2-2</td>
+      <td>2-3</td>
+      <td>2-4</td>
+    </tr>
+  </table>
+</div> <!--de id=tabletas -->
+<div id="cuenta" class="priemeralinea">
+ <form action="./formulario" method="post"> <!-- label con atributo for con valor igual a valor del atributo id -->
+   <label  for="usuario" >usuario</label>
+   <input type="text" name="user" id="usuario"><br>
+   <label for="contrasenia">contrasenia</label>
+   <input type="password" name="pasward" id="contrasenia"><br>
+
+  <label for="genitales">q sos?</label>
+   <select name="sexo" id="genitales">
+     <option>h</option>
+     <option>m</option>
+     <option>otro</option>
+   </select> <br>
+
+   <button type="button" onclick="alert ('agaunte marito');">arre loko</button><br>
+
+   <input type="radio" name="genero" value="h">onvre</input>
+   <input type="radio" name="genero" value="m">muje</input>
+   <input type="radio" name="genero" value="otro">qseyomacho</input><br>
+
+
+<input type="submit" value="iniciar">
+ </form>
+
+</div>
+</body>
