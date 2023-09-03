@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+ <head>
+
+    <title>ALIENS e-liquid</title>
+    <script src="menu.js"></script>
+    <script src="pie.js"></script>
+    <link href="./estilo.css" rel='stylesheet'>
+
+ </head>
+<!--   -->
+ <body>
+
+  <div id="menu"></div>
+
+  <div id="encabezado"></div>
+
+  <h2>Que representa el vapeo</h2>
+
+  <div id="qesvapeo">
+      <p>El vapeo es la mejor y mas eficiente manera de dejar el cigarrillo.
+      Alguna de las experiencias de nuestoros clientes cuentan sobre una mejora
+      en su estado de salud
+      La toma de decision de dejar el cigarro es una de las mejores y mas dificiles decisiones
+      que alguien puede tomar para la salud y tranquilidad propia y de su familia
+      El vapeo puede facilitar ese camino. La idea del vapeo es un camino de salida del cigarrillo
+      con esto en mente, se pretende que midiendo la graduacion de la nicotina de los liquidos vaya reduciendose
+      con el fin de llegar a nicotina 0 (la nicotina no es canserigena en si, es solo el componente adictivo)
+      luego de eso dejarlo </p>
+      <img src="./portada2.png">
+  </div>
+
+ <h2>Nosotros</h2>
+  <div id="nosotrosPP">
+
+    <img src="./wori.png">
+    <p>Aliens nace con la idea de facilitar los productos necesarios para recorrer ese dificil camino
+    </p>
+
+  </div>
+
+
+
+ <div id="pie"></div>
+
+
+ </body>
+<!--   -->
+ <footer>
+
+   <div id="pie"></div>
+
+ </footer>
+
+</html>

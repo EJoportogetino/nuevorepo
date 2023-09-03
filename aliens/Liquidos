@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html>
+
+ <head>
+
+    <title>ALIENS e-liquid</title>
+    <script src="menu.js"></script>
+    <script src="pie.js"></script>
+    <link href="./estilo.css" rel='stylesheet'>
+
+ </head>
+<!--   -->
+ <body>
+
+   <div id="menu"></div>
+
+   <div id="encabezado"></div>
+
+    <form id="barraliquidos" class="contenidoliquido">
+      <label for="clase">tipo de sabor</label>
+        <select id="clase">
+          <option>Bebidas</option>
+          <option>Clones</option>
+          <option>Frutales</option>
+          <option>Mentas</option>
+          <option>Postres</option>
+          <option>Tabaquiles</option>
+          <option>Temporales</option>
+          <option>Importados</option>
+        </select>
+        <div class="nico">
+<p>Graduacion de nicotina</p>
+           <input type="radio" name = "nico" value="0">0</input>
+           <input type="radio" name = "nico" value="1">1</input>
+           <input type="radio" name = "nico" value="3">3</input>
+           <input type="radio" name = "nico" value="6">6</input>
+        </div>
+        <div class="ml">
+<p>Cantidad</p>
+           <input type="radio" name="ml" value="30">30ml</input>
+           <input type="radio" name="ml" value="60">60ml</input>
+        </div>
+    </form>
+
+
+<div id="tiposdesabores" class="contenidoliquido">
+  <table>
+   <thead>
+     <h2>Postres</h2>
+   </thead>
+   <tbody>
+    <tr>
+     <td><p><span>Crusty</span> cereal crujiente con frutos del bosque</p></td>
+     <td><p><span>Doble chocolate</span> delicioso sabor a chocolate concentrado tipo torta de chocolate</p></td>
+     <td><p><span>Frutillas con crema</span> deliciosa frutillas con cremas Chantilly</p></td>
+   </tr>
+   <tr>
+     <td><p><span>French vainilla</span> sabor a vainilla con deliciosa crema</p></td>
+     <td><p><span>Kylipe</span> clásico pastel americano hecho con una base de galletita de vainilla y un relleno cremoso de Lima por un toque de crema batida</p></td>
+     <td><p><span>Monkey Fart</span> combinaciones de exquisita de frutilla, banana y mantequilla de maní</p></td>
+   </tr>
+   <tr>
+     <td><p><span>Mosse milk</span> el sabor de la vainilla cremosa con un toque de crema dulce</p></td>
+     <td><p><span>Scrappy coco </span> crema de pastel de coco que con una nota de crema batida un sabor sutil para amantes del coco</span></p></td>
+   </tr>
+   </tbody>
+ </table>
+
+
+ <table>
+   <thead><h2>Clones</h2></thead>
+  <tbody>
+   <tr>
+     <td><p><span>Churrios</span> churros frescos con azúcar y canela, empapados en leche</p></td>
+     <td><p><span>Don Juan</span> pastel de nuez mantequilla chocolate galleta dulce y crema batida</p></td>
+     <td><p><span>LavaFlow</span> fusión de fresas Cocos y piñas para obtener el mejor sabor de batido de frutas</p></td>
+  </tr>
+  <tr>
+     <td><p><span>Kringle</span> deliciosa mezcla de diferentes tipos de mentas</p></td>
+     <td><p><span>Lucky 13</span> mezcla de tabaco suave estilo ry4 combinada con vainilla, almendra y caramelo</p></td>
+     <td><p><span>Maui</span> mezcla de jugo de naranja nectar dulce y ácido maracuyá y la exótica fruta de guayaba</p></td>
+  </tr>
+  <tr>
+   <td><p><span>Milkman</span> aroma tarta de fruta tostada mezclada con helado de vainilla y leche</p></td>
+   <td><p><span>Modern milk</span> sabor a postre de crema con un toque de fresa</p></td>
+   <td><p><span>Tribeca </span> tabaco suave con un toque de vainilla y caramelo</p></td>
+  </tr>
+  <tr>
+    <td><p><span>Unicorn milk</span> una mezcla perfecta de extracto de frutilla y cuatro tipos de cremas</p></td>
+  </tr>
+ </tbody>
+ </table>
+ <table>
+   <thead><h2>Bebidas</h2></thead>
+   <tbody>
+    <tr>
+      <td><p><span>Café con crema</span> este sabor cremoso a café, es una combinación del agradable aroma de café y unas notas de crema dulce que explota de paladar</p></td>
+      <td><p><span>Irish Cream</span> este aroma a crema irlandesa tiene un sabor cremoso y suave seductor similar a Baileys</p> </td>
+      <td><p><span>Lemon fresh</span> delicioso sabor a limonada recién elaborada</p> </td>
+    </tr>
+    <tr>
+      <td><p><span>Mojito </span> este aroma posee esa hora de combinación del dulzor cítricos y sabor a menta de un cóctel</p></td>
+    </tr>
+  </tbody>
+ </table>
+ <table>
+   <thead><h2>Frutales</h2><thead>
+   <tbody>
+    <tr>
+     <td><p><span>Beeatle juice</span> mezcla de frutas tropicales y frescas que brindan una experiencia irresistible</p></td>
+     <td><p><span>Boom </span> aroma helado con notas de frambuesa Lima limón y arándano</p> </td>
+     <td><p><span>Dragon fruit</span> aroma frutal suave con notas tropicales framora fusión de frambuesas y moras</p> </td>
+   </tr>
+   <tr>
+     <td><p><span>Fruki</span> es una deliciosa combinación de fresas frescas y kiwi</p></td>
+     <td><p><span>Tropical</span> la magnífica unión de los sabores de mango frutillas y moras, logra un sabor incomparable</p></td>
+     <td><p><span>Unicorn vomic</span> sabor dulce que posee un mix frutal con un toque acido</p></td>
+   </tr>
+   <tr>
+     <td><p><span>Uva</span> delicioso sabor a uvas dulces y frescas</p></td>
+     <td><p><span>Yumberry</span> aroma con mezclas de frutillas, arándanos y frambuesas. La combinación perfecta de tus bayas favoritas</p></td>
+   </tr>
+  </tbody>
+ </table>
+ <table>
+   <thead><h2>Mentolados</h2></thead>
+   <tbody>
+    <td><p><span>Crema menta</span> sabor fresco menta con un toque de crema para compensar</span></td>
+    <td><p><span>Peppermint</span> sabor a menta y peperina estilo chicle Beldent</p></td>
+    <td><p><span>Spearmint</span> aroma a menta fresca y natural de tentará tus sentidos de sabor un sabor refrescante y dulce</p></td>
+  </tbody>
+ </table>
+ <table>
+   <thead><h2>Tabaquiles</h2></thead>
+   <tbody>
+     <tr>
+      <td><p><span>Cubano</span> tabaco fuerte con gusto a habano , con caracteristicas de especias y madera , Suave dulce y seco</p></td>
+      <td><p><span>Doble ry4</span> tabaco con toques de caramelo</p></td>
+      <td><p><span>East coast</span> tabaquil fuerte y seco</p></td>
+     </tr>
+     <tr>
+      <td><p><span>Red Blend</span> un aroma a tabaco diseñado apara proporcionar un sabor similar a los cigarrillos</p></td>
+      <td><p><span>Tabaco mentolado</span> una mezcla de sabor dulce que viene con un docis perfecta de mentol y aroma a tabaco suave</p></td>
+      <td><p><span>Red Cowboy</span> aroma suave a tabaco rubio</p></td>
+     </tr>
+     <tr>
+     <td><p><span>Usa blend</span> mezcla de tabaco americano con sabor suave sabroso y ligero. disfrute de un sabor sacrtivactorio, rico e inolvidable</p></td>
+     <td><p><span>Tabaco turco</span> tabaco muy aromático y levenetmte acido. tambien conocido como tabaco oriental</p></td>
+     <td><p><span>Western</span> una exelente mezcla de tabacos, similar al tabaco usado para los habanos toscanos</p></td>
+     </tr>
+     <tr>
+     <td><p><span>Tabaco cremoso</span> una mezcla de tabaco suave combinado con vainillas avellanas y cremas</p></td>
+   </tr>
+   </tbody>
+ </table>
+ <table>
+   <thead><h2>Temporales</h2></thead>
+   <tbody>
+   <tr>
+    <td><p><span>Alien</span> el sabor suave y dulce y perfecto de la corteza de pastel desmenuzable apple pie rico y bien logrado sabor a tarta de manzana</p></td>
+    <td><p><span>Bizcochoso</span> bizcochuelo de vainilla con distintos tipos de leche y una cobertura de merengue italiano</p></td>
+    <td><p><span>Black Honey</span> mezcla de los mejores tabacos de pipa. Aroma de tabaco de pipa negro dulce </p></td>
+   </tr>
+   <tr>
+    <td><p><span>Borbón</span> aroma con notas ligeramente ahumadas con sabor suave y dulce</p></td>
+    <td><p><span>Butter scotch</span>tabaco suave combinado con manteca y al azúcar rubia</p></td>
+    <td><p><span>Capitan's donat</span> aroma a dona glaseadas</p></td>
+  </tr>
+  <tr>
+   <td><p><span>Choco mint</span> chocolate cremoso que colabora con la menta</p></td></td>
+   <td><p><span>Chernobyl</span> combinación de anís regaliz y cítricos</p></td>
+   <td><p><span>Chocolate blanco</span> sabor suave y delicioso a chocolate blanco</p></td>
+  </tr>
+  <tr>
+   <td><p><span>Cold spice</span> sabor picante con un toque mentolado</p></td>
+   <td><p><span>Coumaring pipe</span> aromas de tabaco de pipa para los amantes del sabor del tabaco </p></td>
+   <td><p><span>Double apple</span> Mezcla de manzana roja y verde sabor dulce y ácido de fruta fresca </p></td>
+  </tr>
+  <tr>
+   <td><p><span>Durazno</span> delicioso sabor a duraznos dulces y jugosos</p></td></td>
+   <td><p><span>Druida</span> sabor herbal con notas de verbena y miel</p></td>
+   <td><p><span>Granny's Apple Pie</span> tradicional pie de manzana con un toque de canela</p></td>
+ </tr>
+ <tr>
+   <td><p><span>Ice toffee</span> helado cremoso de caramelo</p></td>
+   <td><p><span>Ecto cooler</span> aroma cítrico con sabor a Lima limón con un toque de mandarina </p>
+   <td><p><span>Italien</span> el auténtico sabor de la pizza italiana</p></td>
+ </tr>
+ <tr>
+   <td><p><span>Lucky monkey</span> cereales combinados con frutillas bananas y mantequilla de maní</p></td>
+   <td><p><span>Marta</span> combinación de Maple dulce con notas ligeras de Rum y una mezcla de tabaco dulce</p></td>
+   <td><p><span>Melón</span> delicioso aroma a melones dulces</p></td>
+ </tr>
+ <tr>
+   <td><p><span>Nutella</span> deliciosa combinación de avellanas y chocolate</p></td>
+   <td><p><span>Pistacho</span> aroma dulce del exótico fruto del pistacho</p></td>
+   <td><p><span>Sandía</span> Increíble sabor dulce a sandía el sabor en tu boca nunca decepciona</p></td>
+ </tr>
+ <tr>
+   <td><p><span>Popcorn</span> sabor a pochoclos caramelizados como los del cine</p></td>
+   <td><p><span>Snake oil</span> combinación de fresas y vainilla con una pizca de regaliz poseen notas cítricas</p></td>
+   <td><p><span>Splinter</span> sabor a banana split</p></td>
+ </tr>
+ <tr>
+   <td><p><span>Usa mix</span> sabor suave a tabaco americano y con un fuerte golpe de garganta</p></td>
+   <td><p><span>Toscano italiano</span> es un aroma suave equilibrado premiado con ligeras notas de humo de carbón</p></td>
+   <td><p><span>Whisky</span> aroma fuerte o whisky escocés</p></td>
+ </tr>
+ <tbody>
+ </table>
+
+</body>
+</table>
+</div>
+
+
+<!--   -->
+ <footer>
+
+   <div id="pie"></div>
+
+ </footer>
+
+</html>

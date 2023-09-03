@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+ <head>
+
+    <title>ALIENS e-liquid</title>
+    <script src="menu.js"></script>
+    <script src="pie.js"></script>
+    <link href="./estilo.css" rel='stylesheet'>
+
+ </head>
+<!--   -->
+ <body>
+
+   <div id="menu"></div>
+
+   <div id="encabezado"></div>
+
+  <div id="barra izquierda">
+    <form>
+      <label for="Accesorios">repuestos</label>
+        <select id="Accesorios">
+          <option>Algodon</option>
+          <option>Baterias</option>
+          <option>Cargadores</option>
+          <option>Pirex</option>
+          <option>Herramientas</option>
+          <option>Resistencias</option>
+        </select>
+    </form>
+  </div>
+
+
+
+ </body>
+<!--   -->
+ <footer>
+
+   <div id="pie"></div>
+
+ </footer>
+
+</html>

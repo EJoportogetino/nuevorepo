@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+
+ <head>
+
+    <title>ALIENS e-liquid</title>
+    <script src="menu.js"></script>
+    <script src="pie.js"></script>
+    <link href="./estilo.css" rel='stylesheet'>
+
+ </head>
+<!--   -->
+ <body>
+
+   <div id="menu"></div>
+
+   <div id="encabezado"></div>
+<div id="contenidoeqipos">
+  <form id="barraequipos" class="contenidoequipos">
+    <label for="Equipos"></label>
+      <select id="Equipos">
+        <option>Kits de inicio</option>
+        <option>Kits avanzados</option>
+        <option>Mods</option>
+        <option>Atomizadores</option>
+        <option>THC/CBD</option>
+      </select>
+  </form>
+ <div class="contenidoequipos">
+  <table id="tablaequipos">
+    <thead>
+       kit de inicio
+    </thead>
+    <tbody>
+      <tr>
+        <td><p><span>Smok V8</span> <ul>
+                                        <li>Bateria 3000 mAh</li>
+                                        <li>Capacidad 5ml</li>
+                                        <li>24.5mm x 56mm </li>
+                                    </ul>
+        </p></td>
+        <td><p><span>Vaporesso Veco Solo Plus</span><ul>
+                                                        <li>Bateria 3300 mAh</li>
+                                                        <li>Capacidad 4ml</li>
+                                                        <li>24.5mm x 124.5mm</li>
+                                                    </ul>
+        </p></td>
+        <td><p><span>Pod Minifit</span><ul>
+                                            <li>Bateria 370 mAh</li>
+                                            <li>Capacidad 1.5ml</li>
+                                            <li>70mm x 21mm</li>
+                                      </ul>
+        </p></td>
+      </tr>
+      <tr>
+        <td><p><span>Smok Prince</span><ul>
+                                            <li>Bateria 3000 mAh</li>
+                                            <li>Capacidad 8ml</li>
+                                            <li>28mm x 148mm</li>
+                                      </ul>
+        </p></td>
+        <td><p><span>Smok nord</span>
+                                      <ul>
+                                            <li>Bateria 1100 mAh</li>
+                                            <li>Capacidad 3ml</li>
+                                            <li>30mm x 18.8mm</li>
+                                      </ul>
+        </p></td>
+        <td><p><span></span></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table>
+    <thead>
+       Kit Avanzados
+    </thead>
+    <tbody>
+      <tr>
+        <td><p><span>Smok i-priv</span> <ul>
+                                        <li>1-230W</li>
+                                        <li>Capacidad 8ml</li>
+                                        <li>0.1-2.5ohm</li>
+                                        <li>VW, TC (Ni,Ti,SS)</li>
+                                        <li>1.3" HD OLED</li>
+                                        <li>95 x 56 x 35</li>
+                                        <li>Aleacion de zinc</li>
+                                    </ul>
+        </p></td>
+        <td><p><span>Voopoo Drag 3</span><ul>
+                                      <li>5-177W</li>
+                                      <li>Capacidad 5.5ml</li>
+                                      <li>0.1-3.0ohm</li>
+                                      <li>VW, TC (Ni,Ti,SS)</li>
+                                      <li>1.08" TFT</li>
+                                      <li>138 x 52 x 25</li>
+                                      <li>Aleacion de zinc</li>
+                                   </ul>
+        </p></td>
+        <td><p><span>Vaporesso Revenger x</span><ul>
+                                                    <li>5-220W</li>
+                                                    <li>Capacidad 5mm</li>
+                                                    <li>0.05-5.0ohm</li>
+                                                    <li>VW,CCW,CCT,VT,TCR,RTC,Bypass</li>
+                                                    <li>0.96" OLED</li>
+                                                    <li>89 x 45 x 28</li>
+                                                    <li>Aleacion de aluminio</li>
+                                                </ul>
+        </p></td>
+      </tr>
+      <tr>
+        <td><p><span>Vaporesso gen 160</span><ul>
+                                                  <li>5-160W</li>
+                                                  <li>Capacidad 5mm</li>
+                                                  <li>0.05-5.0ohm</li>
+                                                  <li>VW, VT, TCR, BYPASS</li>
+                                                  <li>0.91" OLED</li>
+                                                  <li>93.5 x 53 x 27</li>
+                                                  <li>Aleacion de zinc</li>
+                                             </ul>
+        </p></td>
+      </tr>
+    </tbody>
+  </table>
+   </div>
+ </body>
+
+</div>
+<!--   -->
+ <footer>
+
+   <div id="pie"></div>
+
+ </footer>
+
+</html>

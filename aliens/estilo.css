@@ -1,0 +1,145 @@
+html{
+ background: linear-gradient(to top left, #113180, #b12c83);
+ font-family: sans-serif;
+ margin:0px;
+ color:black;
+}
+
+#menu {
+  min-height: 60px;
+  left: 0px;
+  background: linear-gradient(to bottom right, #b12c83, #113180);
+  max-width: 1366px;
+  display: flex;
+}
+
+#menu table td{
+  flex-grow:1;
+}
+
+
+tbody a {
+  font-size: 23px;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  padding: 10px 10px 10px 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: black;
+}
+
+h2 {
+  width: 340px;
+  height: 35px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 35px 45px;
+  border: gray solid 2px;
+}
+
+#encabezado {
+  background-image: url(./cabezera.png);
+  text-align: center;
+  height: 315px;
+  width: 850px;
+  border-style: double groove;
+  border-radius: 10%;
+  margin: 20px auto;
+}
+
+#qesvapeo {
+  display: inline-block;
+  width: 1200px;
+  height: 200px;
+  margin-top: 60px;
+  margin-bottom: 28px;
+  margin-left: 44px;
+  margin-right: 20px;
+  max-width: 100%;
+  border-bottom: 2px gray solid;
+  padding-top: 15px;
+}
+#qesvapeo p{
+  text-align: justify;
+  margin: 15px 40px 25px 30px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 865px;
+}
+
+img[src="./portada2.png"]{
+  display: inline-block;
+  vertical-align: middle;
+  width: 19%;
+}
+
+#nosotrosPP {
+  display: inline-block;
+  width: 1200px;
+  height: 200px;
+  margin-top: 60px;
+  margin-bottom: 28px;
+  margin-left: 44px;
+  margin-right: 20px;
+  max-width: 100%;
+  border-bottom: 2px gray solid;
+  padding-top: 15px;
+}
+
+#nosotrosPP img,
+#nosotrosPP p{
+  display:inline-block;
+}
+
+#nosotrosPP p{
+  vertical-align: top;
+}
+
+tr{
+  margin-left:auto;
+}
+
+.contenidoliquido{
+  display:inline-block;
+}
+.hyper {
+  font-size: 20px;
+  text-align: center;
+  margin: 30px;
+}
+
+.hyper a{
+  color: black;
+  border: 20px;
+  margin: 20px;
+}
+
+#barraliquidos {
+  margin: 30px 20px;
+  width: 15%;
+  position: relative;
+  vertical-align: top;
+}
+
+#tiposdesabores {
+   overflow: scroll;
+   width: 1000px;
+   height: 1000px;
+   margin: 30px;
+}
+
+#barraequipos{
+  width: 133px;
+  height: 30px;
+  margin: 10px
+}
+
+.contenidoequipos{
+  display: inline-block;
+  vertical-align: top;
+}
+
+#tablaequipos{
+  padding: 10px;
+  margin: 20px;
+}

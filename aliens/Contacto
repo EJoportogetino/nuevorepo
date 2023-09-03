@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+ <head>
+
+    <title>ALIENS e-liquid</title>
+    <script src="menu.js"></script>
+    <script src="pie.js"></script>
+    <link href="./estilo.css" rel='stylesheet'>
+
+ </head>
+<!--   -->
+ <body>
+
+   <div id="menu"></div>
+
+   <div id="encabezado"></div>
+
+   <div class= "hyper">
+       <a target="_blank" href="https://wa.me/5492915278302">Nuestro WhatsApp</a>
+       <a target="_blank" href="https://www.instagram.com/alienseliquids">Nuestro Instagram</a>
+       <a target="_blank" href="https://www.facebook.com/alienseliquids">Nuestro Facebook</a>
+   </div>
+ </body>
+<!--   -->
+ <footer>
+
+   <div id="pie"></div>
+
+ </footer>
+
+</html>
